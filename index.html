@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japneet Kaur | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="nav-inner container">
+        <a class="brand" href="index.html">Japneet Kaur</a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link active">Home</a>
+          <a href="research.html" class="nav-link">Research</a>
+          <a href="teaching.html" class="nav-link">Teaching</a>
+          <a href="contact.html" class="nav-link">Contact</a>
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            <span class="icon icon-sun" aria-hidden="true"></span>
+            <span class="icon icon-moon" aria-hidden="true"></span>
+          </button>
+        </nav>
+      </div>
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </header>
+
+    <main class="container main-content">
+      <section class="hero split-grid">
+        <div class="hero-card reveal">
+          <div class="portrait-ring">
+            <img src="photo.jpeg" alt="Portrait of Japneet Kaur" class="portrait">
+          </div>
+        </div>
+
+        <div class="hero-text reveal">
+          <p class="eyebrow">Welcome!</p>
+          <p class="lead">I am a Research Fellow at Learning Collider (New York), and am working on the Education Foundation Model Project at the Massachusetts Institute of Technology (MIT) in collaboration with Sendhil Mullainathan (MIT), Oeindrila Dube (University of Chicago), Ashesh Rambachan (MIT), and Peter Bergman (University of Texas at Austin).</p>
+          <p>I am a development economist with a primary focus on the economics of education. My research studies how learning outcomes are shaped and how they can be improved, particularly in low-income settings, with a focus on educational inequality. It also examines how beliefs, aspirations, and behavioral frictions influence human capital investments, and how targeted interventions can help individuals overcome constraints. I also work in microeconomic theory, especially general equilibrium, drawing on training in topology and measure theory.</p>
+          <p>I hold a PhD, MPhil, and MSc in Economics from the Indira Gandhi Institute of Development Research, Mumbai.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="cv.pdf" download>Download CV ↓</a>
+            <p class="contact-line">You can email me at <a href="mailto:japneetkaur.econ@gmail.com">japneetkaur.econ@gmail.com</a></p>
+          </div>
+          <div class="tag-row">
+            <span class="tag">Economics</span>
+            <span class="tag">Education</span>
+            <span class="tag">Behavioral Science</span>
+            <span class="tag">General Equilibrium</span>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer container reveal">
+      <div class="footer-copy">© 2025 Japneet Kaur</div>
+    </footer>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22V4" stroke-linecap="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Japneet Kaur | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="contact">
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="nav-inner container">
+        <a class="brand" href="index.html">Japneet Kaur</a>
+        <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="index.html" class="nav-link">Home</a>
+          <a href="research.html" class="nav-link">Research</a>
+          <a href="teaching.html" class="nav-link">Teaching</a>
+          <a href="contact.html" class="nav-link active">Contact</a>
+          <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
+            <span class="icon icon-sun" aria-hidden="true"></span>
+            <span class="icon icon-moon" aria-hidden="true"></span>
+          </button>
+        </nav>
+      </div>
+      <div class="scroll-progress" id="scrollProgress"></div>
+    </header>
+
+    <main class="container main-content">
+      <section class="page-intro reveal">
+        <p class="eyebrow" style="text-align: center;">Contact</p>
+        <p>Reach out for collaborations, speaking engagements, or questions about research and teaching.</p>
+      </section>
+
+      <section class="contact-grid reveal">
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-group reveal">
+            <input type="text" id="name" name="name" required placeholder=" ">
+            <label for="name">Name</label>
+            <span class="error-message">Please enter your name.</span>
+          </div>
+          <div class="form-group reveal">
+            <input type="email" id="email" name="email" required placeholder=" ">
+            <label for="email">Email</label>
+            <span class="error-message">Please enter a valid email.</span>
+          </div>
+          <div class="form-group reveal">
+            <input type="text" id="subject" name="subject" required placeholder=" ">
+            <label for="subject">Subject</label>
+            <span class="error-message">Please enter a subject.</span>
+          </div>
+          <div class="form-group reveal textarea-group">
+            <textarea id="message" name="message" rows="5" required placeholder=" "></textarea>
+            <label for="message">Message</label>
+            <span class="error-message">Please write a message.</span>
+          </div>
+          <button type="submit" class="button button-primary">Send Message</button>
+          <div class="contact-signs">
+            <a href="mailto:japneetkaur.econ@gmail.com" class="sign-link">✉ Email</a>
+            <a href="https://www.linkedin.com/in/japneetkaur" class="sign-link" target="_blank" rel="noopener">in LinkedIn</a>
+            <a href="https://twitter.com/japneetkaur" class="sign-link" target="_blank" rel="noopener">🐦 Twitter</a>
+          </div>
+          <p id="formSuccess" class="form-success" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer container reveal">
+      <div class="footer-copy">© 2025 Japneet Kaur</div>
+    </footer>
+  </div>
+
+  <button id="backToTop" class="back-to-top" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 15l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 22V4" stroke-linecap="round"/></svg>
+  </button>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
